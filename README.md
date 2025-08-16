@@ -148,6 +148,6 @@ GROUP BY DAYNAME(order_date);
 ```
 The screenshot of the result and its visualization are given below side by side.
 <p align = "center">
-	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/daily_trend%20sql.png" width = 45% height = 280px padding right = 20px>
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/daily_trend%20sql.png" width = 45% height = 280px border right = 20px>
  	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Daily%20trend.png" width = 45% height = 300px>	
 </p>
