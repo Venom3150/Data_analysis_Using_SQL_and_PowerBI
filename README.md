@@ -151,3 +151,16 @@ The screenshot of the result and its visualization are given below side by side.
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/daily_trend%20sql.png" width = 45% height = 274px hspace = 20px>
  	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Daily%20trend.png" width = 45% height = 300px>	
 </p>
+
+**Monthly Trend for Total Orders:** By breaking down sales by month, this trend analysis reveals seasonal patterns and peak sales periods, which can be used for long-term business planning and marketing campaigns.
+```sql
+SELECT MONTHNAME(order_date) as Month_of_Year, COUNT(DISTINCT order_id) Total_orders
+FROM copied_pizza_sale
+GROUP BY MONTHNAME(order_date)
+ORDER BY 2 DESC;
+```
+The screenshot of the result and its visualization are given below side by side. 
+<p align = "center">
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Monthly_trend_sql.png" width = 45% hspace = 10px>
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Monthly%20Trend.png" widht = 45%>
+</p>
