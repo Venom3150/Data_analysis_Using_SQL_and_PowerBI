@@ -99,4 +99,20 @@ ALTER TABLE copied_pizza_sale
 ADD CONSTRAINT pk primary key(pizza_id);
 ```
 
+The dataset is now in the standard format and we can dive deeper to answer the business questions. 
 
+# Business Questions & SQL Queries
+The analysis was focused on answering key business questions related to sales performance, customer behavior, and product popularity.
+
+-- Key Performance Indicators (KPIs)
+The following queries were used to calculate core business metrics:
+
+Total Revenue: This metric provides a high-level overview of the company's financial performance by summing up the total price of all sales transactions.
+
+Average Order Value: This KPI measures the average amount spent per order, which helps to understand typical customer spending behavior and can inform pricing and upselling strategies.
+
+Total Pizzas Sold: A straightforward count of all pizzas sold, this metric indicates the overall demand and popularity of the products.
+
+Total Orders: This provides a count of the total number of unique transactions, which is a key indicator of business volume and customer traffic.
+
+Average Pizzas per Order: This metric calculates the average quantity of pizzas bought per transaction, offering insights into customer purchase patterns and potential for bundle deals.
