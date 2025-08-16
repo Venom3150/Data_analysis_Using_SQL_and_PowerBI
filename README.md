@@ -107,32 +107,44 @@ The analysis was focused on answering key business questions related to sales pe
 **Key Performance Indicators (KPIs):**
 The following queries were used to calculate core business metrics.
 
-**1.Total Revenue:** This metric provides a high-level overview of the company's financial performance by summing up the total price of all sales transactions.
+**1. Total Revenue:** This metric provides a high-level overview of the company's financial performance by summing up the total price of all sales transactions.
 ```sql
 SELECT CONCAT("$ ",ROUND(SUM(total_price),3) )as total_revenue    # Concatinated with the dollar sign and rounded in 3 decimal point
 FROM copied_pizza_sale;
 ```
 
-**2.Average Order Value:** This KPI measures the average amount spent per order, which helps to understand typical customer spending behavior and can inform pricing and upselling strategies.
+**2. Average Order Value:** This KPI measures the average amount spent per order, which helps to understand typical customer spending behavior and can inform pricing and upselling strategies.
 ```sql
 SELECT ((Round(SUM(total_price) / COUNT(DISTINCT order_id),2))) AS Average_Order_value
 FROM copied_pizza_sale;
 ```
 
-**3.Total Pizzas Sold:** A straightforward count of all pizzas sold, this metric indicates the overall demand and popularity of the products.
+**3. Total Pizzas Sold:** A straightforward count of all pizzas sold, this metric indicates the overall demand and popularity of the products.
 ```sql
 SELECT SUM(quantity) as Total_pizza_sold
 FROM copied_pizza_sale;
 ```
 
-**4.Total Orders:** This provides a count of the total number of unique transactions, which is a key indicator of business volume and customer traffic.
+**4. Total Orders:** This provides a count of the total number of unique transactions, which is a key indicator of business volume and customer traffic.
 ```sql
 SELECT COUNT(DISTINCT order_id) as Total_order
 FROM copied_pizza_sale;
 ```
 
-**5.Average Pizzas per Order:** This metric calculates the average quantity of pizzas bought per transaction, offering insights into customer purchase patterns and potential for bundle deals.
+**5. Average Pizzas per Order:** This metric calculates the average quantity of pizzas bought per transaction, offering insights into customer purchase patterns and potential for bundle deals.
 ```sql
 SELECT SUM(quantity) / COUNT(DISTINCT order_id) as Average_Pizza_Per_Order
 FROM copied_pizza_sale;
 ```
+
+# Daily & Monthly Sales Trends
+Queries were executed to identify sales patterns over time:
+
+**Daily Trend for Total Orders:** This analysis helps identify which days of the week are the busiest, which is essential for optimizing staffing levels and managing inventory.
+```sql
+SELECT DAYNAME(order_date) as Week_days, COUNT(DISTINCT order_id) as Total_orders
+FROM copied_pizza_sale
+GROUP BY DAYNAME(order_date);
+```
+The screenshot of the result and its visualization are given below side by side 
+|![]https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/daily_trend%20sql.png|![]https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Daily%20trend.png
