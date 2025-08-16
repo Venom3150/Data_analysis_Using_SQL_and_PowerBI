@@ -9,3 +9,16 @@ The dataset for this project is a `pizza_sales.csv` file, which contains detaile
 # Tools 
 - MySQL: Used for data cleaning, preparation, and querying to answer business questions.
 - Power BI: Utilized to create an interactive dashboard for visualizing the key findings.
+
+# Data Cleaning & Preparation
+Before working on the project it is better to make sure that the raw dataset remains untouched which can benefit with reproducibility, data integrity and audit trial. It is carried out in MySQL as follows: 
+`sql
+-- Creating the copy of the raw datasets
+CREATE TABLE copied_pizza_sale 
+LIKE pizza_sales;
+
+-- Inserting the values into the copied dataset
+INSERT copied_pizza_sale
+SELECT *
+FROM pizza_sales;
+`
