@@ -104,7 +104,7 @@ The dataset is now in the standard format and we can dive deeper to answer the b
 # Business Questions & SQL Queries
 The analysis was focused on answering key business questions related to sales performance, customer behavior, and product popularity.
 
--- Key Performance Indicators (KPIs)
+**Key Performance Indicators (KPIs)**
 The following queries were used to calculate core business metrics:
 
 Total Revenue: This metric provides a high-level overview of the company's financial performance by summing up the total price of all sales transactions.
