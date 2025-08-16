@@ -12,7 +12,7 @@ The dataset for this project is a `pizza_sales.csv` file, which contains detaile
 
 # Data Cleaning & Preparation
 Before working on the project it is better to make sure that the raw dataset remains untouched which can benefit with reproducibility, data integrity and audit trial. It is carried out in MySQL as follows: 
-`sql
+```sql
 -- Creating the copy of the raw datasets
 CREATE TABLE copied_pizza_sale 
 LIKE pizza_sales;
@@ -21,4 +21,5 @@ LIKE pizza_sales;
 INSERT copied_pizza_sale
 SELECT *
 FROM pizza_sales;
-`
+```
+
