@@ -146,5 +146,5 @@ SELECT DAYNAME(order_date) as Week_days, COUNT(DISTINCT order_id) as Total_order
 FROM copied_pizza_sale
 GROUP BY DAYNAME(order_date);
 ```
-The screenshot of the result and its visualization are given below side by side 
-|![]https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/daily_trend%20sql.png|![]https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Daily%20trend.png
+The screenshot of the result and its visualization are given below side by side.
+|![](https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/daily_trend%20sql.png)|![](https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Daily%20trend.png)
