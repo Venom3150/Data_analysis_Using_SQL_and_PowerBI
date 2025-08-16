@@ -161,6 +161,6 @@ ORDER BY 2 DESC;
 ```
 The screenshot of the result and its visualization are given below side by side. 
 <p align = "center">
-	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Monthly_trend_sql.png" width = 30% height= 280px hspace = 10px>
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Monthly_trend_sql.png" width = 30% height= 290px hspace = 10px>
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Monthly%20Trend.png" widht = 45% height = 450px>
 </p>
