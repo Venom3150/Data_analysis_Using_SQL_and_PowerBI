@@ -104,10 +104,14 @@ The dataset is now in the standard format and we can dive deeper to answer the b
 # Business Questions & SQL Queries
 The analysis was focused on answering key business questions related to sales performance, customer behavior, and product popularity.
 
-**Key Performance Indicators (KPIs)**
-The following queries were used to calculate core business metrics:
+**Key Performance Indicators (KPIs):**
+The following queries were used to calculate core business metrics.
 
-Total Revenue: This metric provides a high-level overview of the company's financial performance by summing up the total price of all sales transactions.
+1.Total Revenue: This metric provides a high-level overview of the company's financial performance by summing up the total price of all sales transactions.
+```sql
+SELECT CONCAT("$ ",ROUND(SUM(total_price),3) )as total_revenue    # Concatinated with the dollar sign and rounded in 3 decimal point
+FROM copied_pizza_sale;
+```
 
 Average Order Value: This KPI measures the average amount spent per order, which helps to understand typical customer spending behavior and can inform pricing and upselling strategies.
 
