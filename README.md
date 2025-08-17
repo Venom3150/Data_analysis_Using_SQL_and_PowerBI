@@ -186,8 +186,8 @@ ORDER BY 2 DESC;
 ```
 The screenshot of the result and its visualization are show below side by side. 
 <p align = "center">
-	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25%20sales_category%20sql.png" width = 30% height= 200px hspace = 20px>
- 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25%20sales%20by%20category.png" widht = 45% height = 200px>
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25%20sales_category%20sql.png" width = 30% height= 250px hspace = 20px>
+ 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25%20sales%20by%20category.png" widht = 50% height = 200px>
 </p>
 
 
