@@ -174,7 +174,29 @@ ROUND((SUM(total_price)/ (SELECT SUM(total_price) FROM copied_pizza_sale)* 100 )
 FROM copied_pizza_sale
 GROUP BY pizza_category
 ORDER BY 2 DESC;
+
+# Filter by Month
+SELECT pizza_category,  ROUND(SUM(total_price),2) as Total_Sales,
+ROUND((SUM(total_price)/ (SELECT SUM(total_price) FROM copied_pizza_sale WHERE MONTH(order_date) = 1)* 100 ),2)AS Percentage
+FROM copied_pizza_sale
+WHERE MONTH(order_date) = 1
+GROUP BY pizza_category
+ORDER BY 2 DESC;
+
 ```
 
 
 - **Percentage of Sales by Pizza Size:** This analysis shows the distribution of sales across different pizza sizes, providing insights into customer preferences that can inform pricing and production decisions.
+```sql
+SELECT pizza_size, ROUND(SUM(total_price),2) as Total_sale, 
+ROUND(SUM(total_price) * 100 / (SELECT sum(total_price) FROM copied_pizza_sale),2) as Percentage_Sales
+FROM copied_pizza_sale
+GROUP BY pizza_size;
+
+# Filter Base on Quarter
+SELECT pizza_size, ROUND(SUM(total_price),2) as Total_sale, 
+ROUND(SUM(total_price) * 100 / (SELECT sum(total_price) FROM copied_pizza_sale WHERE QUARTER(order_date) = 1),2) as Percentage_Sales
+FROM copied_pizza_sale
+WHERE QUARTER(order_date) = 1
+GROUP BY pizza_size;
+```
