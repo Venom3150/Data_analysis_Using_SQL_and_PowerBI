@@ -207,8 +207,8 @@ GROUP BY pizza_size;
 ```
 The screenshot of the result and its visualization are show below side by side. 
 <p align = "center">
-	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25sales_size%20sql.png" width = 47% height = 300px hspace = 20px>
-	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25sales%20by%20size.png" widht = 45% height = 200px>
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25sales_size%20sql.png" width = 48% height = 300px hspace = 20px>
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25sales%20by%20size.png" widht = 50% height = 200px>
 </p>
 
 
