@@ -168,6 +168,13 @@ The screenshot of the result and its visualization are given below side by side.
 # Sales Distribution Analysis
 To understand the product mix and customer preferences, the following distributions were analyzed:
 - **Percentage of Sales by Pizza Category:** This metric breaks down total sales revenue by category (e.g., Classic, Veggie, Supreme), highlighting which types of pizzas are the most profitable.
-  
+```sql
+SELECT pizza_category,  ROUND(SUM(total_price),2) as Total_Sales,
+ROUND((SUM(total_price)/ (SELECT SUM(total_price) FROM copied_pizza_sale)* 100 ),2)AS Percentage
+FROM copied_pizza_sale
+GROUP BY pizza_category
+ORDER BY 2 DESC;
+```
+
 
 - **Percentage of Sales by Pizza Size:** This analysis shows the distribution of sales across different pizza sizes, providing insights into customer preferences that can inform pricing and production decisions.
