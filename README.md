@@ -164,3 +164,10 @@ The screenshot of the result and its visualization are given below side by side.
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Monthly_trend_sql.png" width = 30% height= 290px hspace = 10px>
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/Monthly%20Trend.png" widht = 45% height = 450px>
 </p>
+
+# Sales Distribution Analysis
+To understand the product mix and customer preferences, the following distributions were analyzed:
+- **Percentage of Sales by Pizza Category:** This metric breaks down total sales revenue by category (e.g., Classic, Veggie, Supreme), highlighting which types of pizzas are the most profitable.
+  
+
+- **Percentage of Sales by Pizza Size:** This analysis shows the distribution of sales across different pizza sizes, providing insights into customer preferences that can inform pricing and production decisions.
