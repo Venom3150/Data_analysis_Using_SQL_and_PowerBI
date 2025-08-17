@@ -184,6 +184,11 @@ GROUP BY pizza_category
 ORDER BY 2 DESC;
 
 ```
+The screenshot of the result and its visualization are show below side by side. 
+<p align = "center">
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25%20sales_category%20sql.png" width = 30%>
+ 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25%20sales%20by%20category.png" widht = 45%>
+</p>
 
 
 - **Percentage of Sales by Pizza Size:** This analysis shows the distribution of sales across different pizza sizes, providing insights into customer preferences that can inform pricing and production decisions.
