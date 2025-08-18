@@ -326,3 +326,6 @@ This page provides a detailed breakdown of the best and worst-selling pizzas acr
 - By Quantity: This same pizza is also the least purchased by quantity, with only 490 units sold, indicating low customer demand.
 - By Orders: "The Brie Carre Pizza" has the lowest number of orders, reinforcing its position as the lowest-selling item on the menu.
 
+# Conclusion
+This project successfully demonstrates a complete data analysis workflow, from raw data to actionable insights and interactive visualization. By leveraging SQL for data cleaning and querying and Power BI for reporting, the analysis provides a clear and comprehensive picture of the business's performance. The key findings on peak sales periods, customer preferences, and product performance offer strategic guidance for optimizing operations, marketing, and menu management. This data-driven approach allows for informed decision-making and a stronger overall business strategy.
+
