@@ -238,7 +238,7 @@ limit 5;
 ```
 The screenshot of the result and its visualization are show below side by side. 
 <p align = "center">
-	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_rev_sql.png" height= "450" hspace = 20px>
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_rev_sql.png" height= "500" hspace = 20px>
  	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_rev.png"  height="240" >
 </p>
 
