@@ -211,5 +211,31 @@ The screenshot of the result and its visualization are show below side by side.
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/%25sales%20by%20size.png" widht = 50% height = 200px>
 </p>
 
+# Top and Bottom Performing Products
+The project identified the most and least popular pizzas based on two key metrics: revenue and quantity sold.
+
+- Top 5 Selling Pizzas by Revenue: Identifies the five pizzas that generated the most total revenue, which are likely candidates for continued promotion and menu highlights.
+```sql
+SELECT pizza_name, SUM(total_price) as Highest_Revenue
+From copied_pizza_sale
+GROUP BY pizza_name
+ORDER BY 2 DESC
+limit 5;
+```
+The screenshot of the result and its visualization are show below side by side. 
+<p align = "center">
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_rev_sql.png" width= 45%>
+ 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_rev.png" widht = 45%>
+</p>
+
+
+
+
+
+- Bottom 5 Selling Pizzas by Revenue: Pinpoints the five lowest-revenue-generating pizzas, which could be considered for removal from the menu or for special promotional efforts.
+
+- Top 5 Selling Pizzas by Quantity: Identifies the five most frequently purchased pizzas, providing insight into which items are the most popular regardless of price.
+
+- Bottom 5 Selling Pizzas by Quantity: Identifies the least-purchased pizzas, which may signal a need for menu review or marketing changes.
 
 
