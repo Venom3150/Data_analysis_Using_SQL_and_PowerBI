@@ -271,3 +271,13 @@ The screenshot of the result and its visualization are show below side by side.
  	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_qnt.png"  height="210" >
 </p>
 
+# Key findings & insights
+This section serves as a high-level summary of the analysis, providing actionable conclusions drawn from the SQL queries and Power BI visualizations.
+
+-**Peak Sales Periods:** You've identified the busiest times for the business. This is crucial for operational planning. For example, knowing that Fridays and the month of July have the highest order volumes allows management to increase staffing and stock up on ingredients during these times to meet demand and prevent lost sales.
+
+-**Sales Distribution:** By analyzing sales by category and size, you can provide key insights into product strategy. For instance, "Classic" pizzas are the most popular category and "Large" is the most popular size, the company can prioritize promoting those items on their menu and through marketing. This helps ensure that the most popular and profitable products are always available and highly visible.
+
+-**Product Performance:** Identifying the top and bottom-selling pizzas is essential for menu management. The top sellers can be featured prominently, while the bottom sellers such as "The Brie Carre Pizza" can be evaluated. The company might then decide to remove an unpopular pizza to simplify operations, or they might launch a special promotion to boost its sales. This data-driven approach helps optimize the menu and reduce food waste.
+
+
