@@ -250,6 +250,11 @@ GROUP BY pizza_name
 ORDER BY 2 DESC
 limit 5;
 ```
+The screenshot of the result and its visualization are show below side by side. 
+<p align = "center">
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_qnt_sql.png" height= "550" hspace = 20px>
+ 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_qnt.png"  height="210" >
+</p>
 
 
 - Bottom 5 Selling Pizzas by Quantity: Identifies the least-purchased pizzas, which may signal a need for menu review or marketing changes.
