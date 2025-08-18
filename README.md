@@ -253,7 +253,7 @@ limit 5;
 The screenshot of the result and its visualization are show below side by side. 
 <p align = "center">
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_qnt_sql.png" height= "550" hspace = 20px>
- 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_qnt.png"  height="210" >
+ 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_qnt.png"  height="208" >
 </p>
 
 
