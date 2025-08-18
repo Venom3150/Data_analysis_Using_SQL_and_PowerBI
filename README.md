@@ -286,7 +286,7 @@ This dynamic and interactive dashboard provides a comprehensive visual overview 
 
 # Dashboard Overview Analysis
 The overview page of the Pizza Sales Report serves as the primary landing page, providing a high-level summary of the business's performance at a glance.
-<p>
+<p align="center">
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/overview.png" width= 90%>
 </p>
 
