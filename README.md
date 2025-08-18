@@ -312,3 +312,17 @@ The visualization provides key insights into customer behavior and sales pattern
 
 - Sales by Pizza Category: The breakdown of total pizzas sold per category further confirms the dominance of Classic pizzas, which significantly outsold all other categories.
 
+# Product Performance 
+![](https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/product%20performance.png)
+This page provides a detailed breakdown of the best and worst-selling pizzas across three key metrics: Revenue, Quantity, and Total Orders.
+
+1.Best Selling Pizzas:
+- By Revenue: "The Thai Chicken Pizza" generates the most revenue at $43,434, followed by "The Barbecue Chicken Pizza."
+- By Quantity: The "Classic Deluxe Pizza" is the most popular by volume, with 2,453 units sold. The data suggests that a higher-quantity seller may not always be the highest-revenue generator.
+- By Orders: "The Classic Deluxe Pizza" also received the highest number of orders, confirming its popularity with customers.
+
+2. Lowest Selling Pizzas:
+- By Revenue: "The Brie Carre Pizza" is the lowest revenue contributor at $11,588.
+- By Quantity: This same pizza is also the least purchased by quantity, with only 490 units sold, indicating low customer demand.
+- By Orders: "The Brie Carre Pizza" has the lowest number of orders, reinforcing its position as the lowest-selling item on the menu.
+
