@@ -290,25 +290,25 @@ The overview page of the Pizza Sales Report serves as the primary landing page, 
 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/overview.png" width= 90%>
 </p>
 
-Key Performance Indicators (KPIs)
+# Key Performance Indicators (KPIs)
 The dashboard highlights five critical KPIs that offer a comprehensive view of business health over the selected period:
 
-Total Revenue: Total sales amounted to $817,860, indicating strong financial performance for the year.
+- Total Revenue: Total sales amounted to $817,860, indicating strong financial performance for the year.
 
-Average Orders Value: The average customer transaction was $38.31, which helps in understanding typical spending habits.
+- Average Orders Value: The average customer transaction was $38.31, which helps in understanding typical spending habits.
 
-Total Pizza Sold: A total of 49,574 pizzas were sold, demonstrating robust product demand.
+- Total Pizza Sold: A total of 49,574 pizzas were sold, demonstrating robust product demand.
 
-Total Orders: The business processed 21,350 unique orders.
+- Total Orders: The business processed 21,350 unique orders.
 
-Average Pizzas per Order: Customers purchased an average of 2.32 pizzas per order, providing insight into customer purchasing behavior.
+- Average Pizzas per Order: Customers purchased an average of 2.32 pizzas per order, providing insight into customer purchasing behavior.
 
-Sales Trends and Distribution
+# Sales Trends and Distribution
 The visualization provides key insights into customer behavior and sales patterns:
 
-Daily and Monthly Trends: The report clearly identifies that orders are highest from Thursdays through Saturdays. Similarly, the monthly order trend reveals that sales are highest in January and July, indicating seasonal peaks.
+- Daily and Monthly Trends: The report clearly identifies that orders are highest from Thursdays through Saturdays. Similarly, the monthly order trend reveals that sales are highest in January and July, indicating seasonal peaks.
 
-Sales Distribution by Category & Size: The analysis shows that the Classic pizza category is the top contributor to sales, closely followed by Supreme and Veggie pizzas. In terms of size, Large pizzas are the most popular, accounting for nearly half of all sales.
+- Sales Distribution by Category & Size: The analysis shows that the Classic pizza category is the top contributor to sales, closely followed by Supreme and Veggie pizzas. In terms of size, Large pizzas are the most popular, accounting for nearly half of all sales.
 
-Sales by Pizza Category: The breakdown of total pizzas sold per category further confirms the dominance of Classic pizzas, which significantly outsold all other categories.
+- Sales by Pizza Category: The breakdown of total pizzas sold per category further confirms the dominance of Classic pizzas, which significantly outsold all other categories.
 
