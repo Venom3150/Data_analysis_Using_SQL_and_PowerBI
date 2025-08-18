@@ -281,3 +281,7 @@ This section serves as a high-level summary of the analysis, providing actionabl
 -**Product Performance:** Identifying the top and bottom-selling pizzas is essential for menu management. The top sellers can be featured prominently, while the bottom sellers such as "The Brie Carre Pizza" can be evaluated. The company might then decide to remove an unpopular pizza to simplify operations, or they might launch a special promotion to boost its sales. This data-driven approach helps optimize the menu and reduce food waste.
 
 
+Power BI Dashboard
+This dynamic and interactive dashboard provides a comprehensive visual overview of the entire analysis. It showcases key performance indicators, sales trends, and product-specific insights, allowing stakeholders to easily interact with the data and make informed decisions. The Power BI file `data_analysis_.pbix` is available in this repository.
+
+
