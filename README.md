@@ -243,7 +243,26 @@ The screenshot of the result and its visualization are show below side by side.
 </p>
 
 - Top 5 Selling Pizzas by Quantity: Identifies the five most frequently purchased pizzas, providing insight into which items are the most popular regardless of price.
+```SQL
+SELECT pizza_name, SUM(quantity) as Highest_quantity
+From copied_pizza_sale
+GROUP BY pizza_name
+ORDER BY 2 DESC
+limit 5;
+```
+
 
 - Bottom 5 Selling Pizzas by Quantity: Identifies the least-purchased pizzas, which may signal a need for menu review or marketing changes.
-
+```SQL
+SELECT pizza_name, SUM(quantity) as Lowest_quantity
+From copied_pizza_sale
+GROUP BY pizza_name
+ORDER BY 2 ASC
+limit 5;
+```
+The screenshot of the result and its visualization are show below side by side. 
+<p align = "center">
+	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_qnt_sql.png" height= "500" hspace = 20px>
+ 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_qnt.png"  height="220" >
+</p>
 
