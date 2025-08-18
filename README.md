@@ -313,7 +313,9 @@ The visualization provides key insights into customer behavior and sales pattern
 - Sales by Pizza Category: The breakdown of total pizzas sold per category further confirms the dominance of Classic pizzas, which significantly outsold all other categories.
 
 # Product Performance 
-![](https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/product%20performance.png)
+<p align = "center">
+<img src= "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/product%20performance.png" width = 90%>
+</p>
 This page provides a detailed breakdown of the best and worst-selling pizzas across three key metrics: Revenue, Quantity, and Total Orders.
 
 1.Best Selling Pizzas:
