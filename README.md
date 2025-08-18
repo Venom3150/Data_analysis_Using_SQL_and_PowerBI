@@ -228,11 +228,19 @@ The screenshot of the result and its visualization are show below side by side.
  	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/high_rev.png"  height="240" >
 </p>
 
-
-
-
-
 - Bottom 5 Selling Pizzas by Revenue: Pinpoints the five lowest-revenue-generating pizzas, which could be considered for removal from the menu or for special promotional efforts.
+```SQL
+SELECT pizza_name, ROUND(SUM(total_price),2) as Lowest_Revenue
+From copied_pizza_sale
+GROUP BY pizza_name
+ORDER BY 2 
+limit 5;
+```
+The screenshot of the result and its visualization are show below side by side. 
+<p align = "center">
+	<img src = "(https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_rev_sql.png" height= "450" hspace = 20px>
+ 	<img src = "https://github.com/Venom3150/Data_analysis_Using_SQL_and_PowerBI/blob/main/low_rev.png"  height="240" >
+</p>
 
 - Top 5 Selling Pizzas by Quantity: Identifies the five most frequently purchased pizzas, providing insight into which items are the most popular regardless of price.
 
